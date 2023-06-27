@@ -18,6 +18,7 @@ Optional but highly recommended:
 - paracord for sleeving the cable
 - magnetic usb c cable (https://www.aliexpress.com/item/1005005402419615.html)
 - heatshrink
+- rubber feet (https://www.aliexpress.com/item/1005003412490420.html)
 
 Notes for building:
 - if using hotswap sockets solder on the bottom for the switches under the microcontroller! the tolerance is tight!
