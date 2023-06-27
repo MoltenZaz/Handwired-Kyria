@@ -20,6 +20,8 @@ Optional but highly recommended:
 - heatshrink
 
 Notes for building:
+- if using hotswap sockets solder on the bottom for the switches under the microcontroller! the tolerance is tight!
+- put electrical tape on the switches under the microcontoller
 - the xs6 connector is used to wire the microcontrollers together, you need to wire GP0-GP0, GP1-GP1, 3.3v-3.3v, Ground-Ground. Make sure you are wiring it correctly and check with a multimeter, make sure that they aren't shorting to each other as it is quite a small connector.
 - the cable and paracord that I used was very tight in the connector, to make it fit easier I used a pair of scissors to scrape the cable rubber sleeving and make it as thin as possible without removing the sleeving
 - I found it difficult to solder the sx6 connector on the cable side because of its size, take your time and try to put heatshrink around each solder point to avoid accidental shorts
