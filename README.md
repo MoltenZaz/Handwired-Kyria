@@ -33,4 +33,4 @@ Notes for building:
 
 Firmware notes:
 - I have included my qmk files, my keymap is probably more complicated than you want I recommend looking through my layout then either modifiying it to your liking or making your own
-- I'm using EE_HANDS to determine the side of the split so when flashing select the uf2-split-left bootloader for left and uf2-split-right for right. For example to flash the keyboard I use the command "qmk flash -kb handwired -km mitchell -bl uf2-split-left" and "qmk flash -kb handwired -km mitchell -bl uf2-split-right" in qmk msys
+- I'm using EE_HANDS to determine the side of the split so when flashing select the uf2-split-left bootloader for left and uf2-split-right for right. For example to flash the keyboard I use the command "qmk flash -kb handwired/kyria_mt -km mitchell -bl uf2-split-left" and "qmk flash -kb handwired/kyria_mt -km mitchell -bl uf2-split-right" in qmk msys
