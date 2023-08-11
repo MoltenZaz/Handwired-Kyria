@@ -1,0 +1,1 @@
+this is not the right qmk folder structure but for some reason when I do it the right way my left half gets flipped, so these are the most up to date version of my keymap.
