@@ -68,8 +68,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_MTGAP] = LAYOUT(
      KC_TAB , KC_Y ,  KC_P  ,  KC_O  ,   KC_U , KC_J   ,                                     KC_K  ,  KC_D  ,  KC_L  ,  KC_C  ,  KC_W  , KC_DEL ,
      KC_LSFT, KC_I ,  KC_N  ,  KC_E  ,   KC_A , KC_DOT ,                                     KC_M  ,  KC_H  ,  KC_T  ,  KC_S  ,  KC_R  , KC_RSFT,
-     LM_LCTL, KC_Q ,  KC_Z  , KC_QUOT, KC_COMM, KC_SCLN, KC_ESC ,  FKEY , KC_F13 , KC_ENT ,  KC_B  ,  KC_F  ,  KC_G  ,  KC_V  ,  KC_X  , LM_RCTL,
-                              LM_LGUI, LM_LALT,   NAV  , KC_SPC ,  MIR ,   SYM  , KC_BSPC,  KC_ENT, LM_RALT, LM_RGUI
+     LM_LCTL, KC_Q ,  KC_Z  , KC_QUOT, KC_COMM, KC_SCLN, KC_ESC ,  FKEY , KC_CAPS, KC_DEL ,  KC_B  ,  KC_F  ,  KC_G  ,  KC_V  ,  KC_X  , LM_RCTL,
+                              LM_LGUI, LM_LALT,   NAV  , KC_SPC ,   MIR ,   SYM  , KC_BSPC,  KC_ENT, LM_RALT, LM_RGUI
     ),
 
     [_QWERTY] = LAYOUT(
@@ -145,16 +145,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     [_SYM] = LAYOUT(
-      KC_LBRC, KC_RBRC, KC_LPRN, KC_RPRN, KC_LCBR, KC_RCBR,                                     _______, KC_F19 ,  KC_F20 ,  KC_F21 ,  KC_F22 , _______,
-      _______, degree ,  KC_EQL, KC_MINS, KC_QUES,  KC_GRV,                                     KC_PGUP, KC_F16 ,  KC_F17 ,  KC_F18 ,  KC_F23 , _______,
-      _______, squared,  cubed , KC_UNDS, KC_SLSH, KC_LPRN, _______, _______,  FKEY  , _______, KC_PGDN, KC_F13 ,  KC_F14 ,  KC_F15 ,  KC_F24 , _______,
-                                 _______, _______, _______, _______,   FKEY , _______, _______, _______, SC_RAPC, _______
+      KC_LBRC, KC_RBRC, KC_LPRN, KC_RPRN, KC_LCBR, KC_RCBR,                                     KC_F17 , KC_F18 ,  KC_F19 ,  KC_F20 ,  KC_F21 , KC_F22 ,
+      _______, degree ,  KC_EQL, KC_MINS, KC_QUES,  KC_GRV,                                     KC_PGUP, KC_LEFT,   KC_UP ,  KC_DOWN, KC_RIGHT, KC_F23 ,
+      _______, squared,  cubed , KC_UNDS, KC_SLSH, KC_BSLS, _______, _______,  FKEY  , _______, KC_PGDN, KC_F13 ,  KC_F14 ,  KC_F15 ,  KC_F16 , KC_F24 ,
+                                 _______, _______, _______, _______,   FKEY , _______, _______, _______, _______, _______
     ),
 	
     [_FKEY] = LAYOUT(
-      _______, KC_F10 ,  KC_F7 ,  KC_F8 ,  KC_F9 , _______,                                     _______, KC_F19 ,  KC_F20 ,  KC_F21 ,  KC_F22 , _______,
-      _______, KC_F11 ,  KC_F4 ,  KC_F5 ,  KC_F6 , KC_HOME,                                     KC_PGUP, KC_F16 ,  KC_F17 ,  KC_F18 ,  KC_F23 , _______,
-      _______, KC_F12 ,  KC_F1 ,  KC_F2 ,  KC_F3 , KC_END ,  MTGAP , _______, _______, _______, KC_PGDN, KC_F13 ,  KC_F14 ,  KC_F15 ,  KC_F24 , _______,
+      _______, KC_F10 ,  KC_F7 ,  KC_F8 ,  KC_F9 , _______,                                     KC_F17 , KC_F18 ,  KC_F19 ,  KC_F20 ,  KC_F21 , KC_F22 ,
+      _______, KC_F11 ,  KC_F4 ,  KC_F5 ,  KC_F6 , KC_HOME,                                     KC_PGUP, KC_LEFT,   KC_UP ,  KC_DOWN, KC_RIGHT, KC_F23 ,
+      _______, KC_F12 ,  KC_F1 ,  KC_F2 ,  KC_F3 , KC_END ,  MTGAP , _______, _______, _______, KC_PGDN, KC_F13 ,  KC_F14 ,  KC_F15 ,  KC_F16 , KC_F24 ,
                                  _______, _______, _______,   SET  , XXXXXXX, _______,   SET  , _______, _______, _______
     ),
 	
@@ -166,10 +166,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 	
     [_SET2] = LAYOUT(
-      QK_BOOT, XXXXXXX, XXXXXXX, QK_UNICODE_MODE_WINCOMPOSE,  DT_UP ,  NK_ON ,                                      NK_ON ,  DT_UP , QK_UNICODE_MODE_WINCOMPOSE, XXXXXXX, XXXXXXX, QK_BOOT,
-      XXXXXXX, XXXXXXX, XXXXXXX, QK_UNICODE_MODE_LINUX     , DT_DOWN,  NK_OFF,                                      NK_OFF, DT_DOWN, QK_UNICODE_MODE_LINUX     , XXXXXXX, XXXXXXX, XXXXXXX,
-      XXXXXXX, XXXXXXX, XXXXXXX, QK_UNICODE_MODE_MACOS     , DT_PRNT, XXXXXXX,  MTGAP , XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, DT_PRNT, QK_UNICODE_MODE_MACOS     , XXXXXXX, XXXXXXX, XXXXXXX,
-                                 XXXXXXX                   , XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX
+      QK_BOOT, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  NK_ON ,                                      NK_ON , XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, QK_BOOT,
+      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  NK_OFF,                                      NK_OFF, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  MTGAP , XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+                                 XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX
     )
 // /*
 //  * Layer template
