@@ -152,9 +152,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 	
     [_FKEY] = LAYOUT(
-      _______, KC_F10 ,  KC_F7 ,  KC_F8 ,  KC_F9 , _______,                                     KC_F17 , KC_F18 ,  KC_F19 ,  KC_F20 ,  KC_F21 , KC_F22 ,
-      _______, KC_F11 ,  KC_F4 ,  KC_F5 ,  KC_F6 , KC_HOME,                                     KC_PGUP, KC_LEFT,   KC_UP ,  KC_DOWN, KC_RIGHT, KC_F23 ,
-      _______, KC_F12 ,  KC_F1 ,  KC_F2 ,  KC_F3 , KC_END ,  MTGAP , _______, _______, _______, KC_PGDN, KC_F13 ,  KC_F14 ,  KC_F15 ,  KC_F16 , KC_F24 ,
+      _______, KC_F10 ,  KC_F7 ,  KC_F8 ,  KC_F9 , _______,                                     KC_F18 , KC_F19 ,  KC_F20 ,  KC_F21 ,  KC_F22 , KC_F23 ,
+      _______, KC_F11 ,  KC_F4 ,  KC_F5 ,  KC_F6 , KC_HOME,                                     KC_PGUP, KC_LEFT,   KC_UP ,  KC_DOWN, KC_RIGHT, KC_F24 ,
+      _______, KC_F12 ,  KC_F1 ,  KC_F2 ,  KC_F3 , KC_END ,  MTGAP , _______, _______, _______, KC_PGDN, KC_F13 ,  KC_F14 ,  KC_F15 ,  KC_F16 , KC_F17 ,
                                  _______, _______, _______,   SET  , XXXXXXX, _______,   SET  , _______, _______, _______
     ),
 	
