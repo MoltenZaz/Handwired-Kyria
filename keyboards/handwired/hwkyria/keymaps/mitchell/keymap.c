@@ -145,9 +145,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     [_SYM] = LAYOUT(
-      KC_LBRC, KC_RBRC, KC_LPRN, KC_RPRN, KC_LCBR, KC_RCBR,                                     KC_F17 , KC_F18 ,  KC_F19 ,  KC_F20 ,  KC_F21 , KC_F22 ,
-      _______, degree ,  KC_EQL, KC_MINS, KC_QUES,  KC_GRV,                                     KC_PGUP, KC_LEFT,   KC_UP ,  KC_DOWN, KC_RIGHT, KC_F23 ,
-      _______, squared,  cubed , KC_UNDS, KC_SLSH, KC_BSLS, _______, _______,  FKEY  , _______, KC_PGDN, KC_F13 ,  KC_F14 ,  KC_F15 ,  KC_F16 , KC_F24 ,
+      KC_LBRC, KC_RBRC, KC_LPRN, KC_RPRN, KC_LCBR, KC_RCBR,                                     KC_F18 , KC_F19 ,  KC_F20 ,  KC_F21 ,  KC_F22 , KC_F23 ,
+      _______, degree ,  KC_EQL, KC_MINS, KC_QUES,  KC_GRV,                                     KC_PGUP, KC_LEFT,   KC_UP ,  KC_DOWN, KC_RIGHT, KC_F24 ,
+      _______, squared,  cubed , KC_UNDS, KC_SLSH, KC_BSLS, _______, _______,  FKEY  , _______, KC_PGDN, KC_F13 ,  KC_F14 ,  KC_F15 ,  KC_F16 , KC_F17 ,
                                  _______, _______, _______, _______,   FKEY , _______, _______, _______, _______, _______
     ),
 	
